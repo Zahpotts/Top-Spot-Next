@@ -1,5 +1,5 @@
 import { getTopSpots } from "@/lib/api";
-import TopSpot from "@/components/TopSpot";
+import TopSpots from "@/components/TopSpots";
 
 export default async function Home() {
   const topSpots = await getTopSpots();
