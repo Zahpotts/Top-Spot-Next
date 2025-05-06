@@ -1,6 +1,6 @@
 
 import "./globals.css";
-
+import Script from "next/script";
 export const metadata = {
   title: "San Diego Top Spots",
   description: "A list of the top 30 palces to see in San Diego",
